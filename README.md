@@ -2,6 +2,11 @@
 
 External OpenClaw plugin for conservative Databricks SQL access.
 
+Requirements:
+
+- OpenClaw host version `>= 2026.3.28`
+- Plugin entry key: `plugins.entries.databricks`
+
 This package provides:
 
 - Runtime tool: `databricks_sql_readonly`
@@ -46,6 +51,8 @@ OpenClaw checks ClawHub first for bare package installs, then falls back to npm.
 ```
 
 Restart gateway after configuration changes.
+
+For real execution, `host`, `token`, and `warehouseId` are required.
 
 ## Configuration Fields
 

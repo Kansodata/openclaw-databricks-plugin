@@ -1,6 +1,6 @@
 {
   "name": "@kansodata/openclaw-databricks-plugin",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "External Databricks read-only SQL plugin for OpenClaw.",
   "license": "MIT",
   "private": false,
